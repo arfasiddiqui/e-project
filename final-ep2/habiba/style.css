@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+/* body{
+    background-image: url('./banner1.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  
+} */
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-top: 8%;
+    display: flex;
+
+    
+
+}
+.inner{
+    overflow: hidden;
+    
+}
+.inner img{
+    transition: all 1.5s ease;
+ 
+
+}
+.inner:hover img{
+transform: scale(1.5);
+}
+
+div.modal-content{
+    width: 650px;
+}
